@@ -46,7 +46,7 @@ following:
     Mc, Mac, al, el, ap, da, de, delle, della, di, du, del, der, 
     la, le, lo, van and von.
 
-It correctly deals with names which contain apostrophies and hyphens too.
+It correctly deals with names which contain apostrophes and hyphens too.
 
 =head2 EXAMPLE FIXES
 
@@ -127,6 +127,9 @@ Use Kim Ryan's NameParse.pm for any really sophisticated name parsing.
 	    The license is now "the same terms as Perl itself".
 
 2008/02/07  Fixed the version number.
+
+2013/10/29  Corrected typo.  Thanks dsteinbrunner for reporting.  Closes
+            rt#88359.
 
 =head1 AUTHOR
 
